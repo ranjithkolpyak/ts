@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script src="./node_modules/systemjs/dist/system.js"></script>
+    <script>
+      System.config({
+        baseURL: '/',
+        packages: {
+          '/' : { defaultExtension : 'js'}
+        }
+      });
+      System.import('index.js');
+    </script>
+  </body>
+</html>
