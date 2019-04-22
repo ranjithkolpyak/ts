@@ -3,3 +3,5 @@
 .vscode
 */*.js
 *.js
+dist
+dist/*.js

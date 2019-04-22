@@ -5,15 +5,11 @@
     <title></title>
   </head>
   <body>
-    <script src="./node_modules/systemjs/dist/system.js"></script>
-    <script>
-      System.config({
-        baseURL: '/',
-        packages: {
-          '/' : { defaultExtension : 'js'}
-        }
-      });
-      System.import('index.js');
-    </script>
+    <button>Click Here!</button>
+    <script src="./dist/bundle.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+      crossorigin="anonymous"></script>
   </body>
 </html>
